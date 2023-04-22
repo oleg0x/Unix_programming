@@ -48,8 +48,8 @@ int main(void)
 	EC_NEG1( lseek(fd, 10, SEEK_SET) )		// Just after "The quick "
 	read_all(fd, buf2, 9);					// "brown fox"
 	puts(buf2);
-	exit(EXIT_SUCCESS);
 
+	exit(EXIT_SUCCESS);
 EC_CLEANUP_BEGIN
 	exit(EXIT_FAILURE);
 EC_CLEANUP_END

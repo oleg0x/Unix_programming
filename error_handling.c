@@ -65,8 +65,8 @@ int main(void)
 
 	EC_FALSE( some_func() )
 	// Some code here
-	exit(EXIT_SUCCESS);		// return 0
 
+	exit(EXIT_SUCCESS);		// return 0
 EC_CLEANUP_BEGIN
 	exit(EXIT_FAILURE);		// return 1
 EC_CLEANUP_END
